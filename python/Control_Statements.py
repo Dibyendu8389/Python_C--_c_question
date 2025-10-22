@@ -48,7 +48,7 @@ while i<=10:
 
 '''
 
-
+'''
 #Question: Write a program to check whether a given year is a leap year or not.
 
 year = int(input("Enter a year: "))
@@ -57,5 +57,30 @@ if (year % 4 == 0 and year % 100 != 0) or (year % 400 == 0):
 else:
     print("Not a leap year")
 
+'''
+
+#Question: Write a program that stops printing numbers when it reaches 5 using break.
+'''
+for i in range (1,11):
+    if i == 6:
+        break
+    print(i)
+
+'''
 
 
+#Question: Write a program that skips printing number 5 using continue.
+'''
+for i in range (1,11):
+    if i == 5:
+        continue
+    print(i)
+'''
+
+
+#Question: Write a program that uses pass in a loop (to be filled later).
+
+for i in range(1, 6):
+    if i == 3:
+        pass   # Placeholder for future code
+    print("Number:", i)
